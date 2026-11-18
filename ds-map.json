@@ -1,0 +1,1573 @@
+{
+  "$comment": "Mapping of Goodwin DS (Figma UI kit, read-only) components to src/components/ui. Stored here because Code Connect is unavailable on the current Figma plan (Fluxon: Pro). Node IDs are from the file; URLs open the node.",
+  "figmaFile": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS",
+  "fileKey": "JSAx0DZs7QDgwGX3m7ysPb",
+  "codeConnect": {
+    "available": false,
+    "reason": "Figma plan is Pro (Code Connect requires Organization or Enterprise); publishing would also write to the read-only UI kit."
+  },
+  "mappings": [
+    {
+      "code": {
+        "file": "src/components/ui/accordion.tsx",
+        "exports": [
+          "Accordion",
+          "AccordionItem",
+          "AccordionTrigger",
+          "AccordionContent"
+        ]
+      },
+      "figma": {
+        "page": "Accordion",
+        "nodes": [
+          {
+            "id": "22:516",
+            "name": "Accordion / AccordionItem",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=22-516"
+          },
+          {
+            "id": "22:1330",
+            "name": "Accordion",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=22-1330"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/alert.tsx",
+        "exports": [
+          "Alert",
+          "AlertTitle",
+          "AlertDescription",
+          "AlertAction"
+        ]
+      },
+      "figma": {
+        "page": "Alert",
+        "nodes": [
+          {
+            "id": "26:160",
+            "name": "Alert",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=26-160"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/alert-dialog.tsx",
+        "exports": [
+          "AlertDialog",
+          "AlertDialogAction",
+          "AlertDialogCancel",
+          "AlertDialogContent",
+          "AlertDialogDescription",
+          "AlertDialogFooter",
+          "AlertDialogHeader",
+          "AlertDialogMedia",
+          "AlertDialogOverlay",
+          "AlertDialogPortal",
+          "AlertDialogTitle",
+          "AlertDialogTrigger"
+        ]
+      },
+      "figma": {
+        "page": "Alert Dialog",
+        "nodes": [
+          {
+            "id": "83:122",
+            "name": "Alert Dialog",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=83-122"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/aspect-ratio.tsx",
+        "exports": [
+          "AspectRatio"
+        ]
+      },
+      "figma": {
+        "page": "Aspect Ratio",
+        "nodes": [
+          {
+            "id": "28:1540",
+            "name": "Aspect Ratio",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=28-1540"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/avatar.tsx",
+        "exports": [
+          "Avatar",
+          "AvatarImage",
+          "AvatarFallback",
+          "AvatarGroup",
+          "AvatarGroupCount",
+          "AvatarBadge"
+        ]
+      },
+      "figma": {
+        "page": "Avatar",
+        "nodes": [
+          {
+            "id": "17100:29935",
+            "name": "Avatar",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17100-29935"
+          },
+          {
+            "id": "17100:83077",
+            "name": "Avatar Group",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17100-83077"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/badge.tsx",
+        "exports": [
+          "Badge",
+          "badgeVariants"
+        ]
+      },
+      "figma": {
+        "page": "Badge",
+        "nodes": [
+          {
+            "id": "26:169",
+            "name": "Badge",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=26-169"
+          },
+          {
+            "id": "17100:10130",
+            "name": "Badge Number",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17100-10130"
+          }
+        ]
+      },
+      "note": "Figma has an extra \"Verified\" variant not in badgeVariants."
+    },
+    {
+      "code": {
+        "file": "src/components/ui/breadcrumb.tsx",
+        "exports": [
+          "Breadcrumb",
+          "BreadcrumbList",
+          "BreadcrumbItem",
+          "BreadcrumbLink",
+          "BreadcrumbPage",
+          "BreadcrumbSeparator",
+          "BreadcrumbEllipsis"
+        ]
+      },
+      "figma": {
+        "page": "Breadcrumb",
+        "nodes": [
+          {
+            "id": "109:947",
+            "name": "Breadcrumb",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=109-947"
+          },
+          {
+            "id": "195:1993",
+            "name": "Breadcrumb / BreadcrumbItem",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=195-1993"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/button.tsx",
+        "exports": [
+          "Button",
+          "buttonVariants"
+        ]
+      },
+      "figma": {
+        "page": "Button",
+        "nodes": [
+          {
+            "id": "37:931",
+            "name": "Button",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=37-931"
+          }
+        ]
+      },
+      "note": "Figma sizes: default|sm|lg|icon|icon-sm|icon-lg; code also has xs and icon-xs. Figma has a Loading state (code: none)."
+    },
+    {
+      "code": {
+        "file": "src/components/ui/button-group.tsx",
+        "exports": [
+          "ButtonGroup",
+          "ButtonGroupSeparator",
+          "ButtonGroupText",
+          "buttonGroupVariants"
+        ]
+      },
+      "figma": {
+        "page": "Button Group",
+        "nodes": [
+          {
+            "id": "18672:224279",
+            "name": "ButtonGroup",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-224279"
+          },
+          {
+            "id": "18707:209306",
+            "name": "ButtonGroup + Input",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18707-209306"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/calendar.tsx",
+        "exports": [
+          "Calendar",
+          "CalendarDayButton"
+        ]
+      },
+      "figma": {
+        "page": "Calendar",
+        "nodes": [
+          {
+            "id": "17179:197284",
+            "name": "Calendar / Basic",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17179-197284"
+          },
+          {
+            "id": "234:27",
+            "name": "Calendar / Day Button",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=234-27"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/card.tsx",
+        "exports": [
+          "Card",
+          "CardHeader",
+          "CardFooter",
+          "CardTitle",
+          "CardAction",
+          "CardDescription",
+          "CardContent"
+        ]
+      },
+      "figma": {
+        "page": "Card",
+        "nodes": [
+          {
+            "id": "17374:183180",
+            "name": "Card",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17374-183180"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/carousel.tsx",
+        "exports": [
+          "CarouselApi",
+          "Carousel",
+          "CarouselContent",
+          "CarouselItem",
+          "CarouselPrevious",
+          "CarouselNext",
+          "useCarousel"
+        ]
+      },
+      "figma": {
+        "page": "Carousel",
+        "nodes": [
+          {
+            "id": "241:1368",
+            "name": "Carousel",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=241-1368"
+          },
+          {
+            "id": "239:851",
+            "name": "Carousel / Arrow Button",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=239-851"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/chart.tsx",
+        "exports": [
+          "ChartContainer",
+          "ChartTooltip",
+          "ChartTooltipContent",
+          "ChartLegend",
+          "ChartLegendContent",
+          "ChartStyle"
+        ]
+      },
+      "figma": {
+        "page": "Chart",
+        "nodes": [
+          {
+            "id": "449:7503",
+            "name": "Chart / Bar Chart",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=449-7503"
+          },
+          {
+            "id": "517:111675",
+            "name": "Chart / Area Chart",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=517-111675"
+          },
+          {
+            "id": "520:6888",
+            "name": "Chart / Line Chart",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=520-6888"
+          },
+          {
+            "id": "523:7181",
+            "name": "Chart / Pie Chart / Full",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=523-7181"
+          },
+          {
+            "id": "523:7880",
+            "name": "Chart / Pie Chart / Donut",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=523-7880"
+          },
+          {
+            "id": "524:3257",
+            "name": "Chart / Radar Chart",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=524-3257"
+          },
+          {
+            "id": "533:6153",
+            "name": "Chart / Radial Chart ",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=533-6153"
+          },
+          {
+            "id": "449:7467",
+            "name": "Charts / Legend",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=449-7467"
+          },
+          {
+            "id": "523:8354",
+            "name": "Charts / Tooltip",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=523-8354"
+          }
+        ]
+      },
+      "note": "ChartContainer is a recharts wrapper; Figma has one component per chart type."
+    },
+    {
+      "code": {
+        "file": "src/components/ui/checkbox.tsx",
+        "exports": [
+          "Checkbox"
+        ]
+      },
+      "figma": {
+        "page": "Checkbox",
+        "nodes": [
+          {
+            "id": "46:112",
+            "name": "Checkbox",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=46-112"
+          },
+          {
+            "id": "18684:28064",
+            "name": "Checkbox Group",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18684-28064"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/collapsible.tsx",
+        "exports": [
+          "Collapsible",
+          "CollapsibleTrigger",
+          "CollapsibleContent"
+        ]
+      },
+      "figma": {
+        "page": "Collapsible",
+        "nodes": [
+          {
+            "id": "18597:96515",
+            "name": "Collapsible",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18597-96515"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/combobox.tsx",
+        "exports": [
+          "Combobox",
+          "ComboboxInput",
+          "ComboboxContent",
+          "ComboboxList",
+          "ComboboxItem",
+          "ComboboxGroup",
+          "ComboboxLabel",
+          "ComboboxCollection",
+          "ComboboxEmpty",
+          "ComboboxSeparator",
+          "ComboboxChips",
+          "ComboboxChip",
+          "ComboboxChipsInput",
+          "ComboboxTrigger",
+          "ComboboxValue",
+          "useComboboxAnchor"
+        ]
+      },
+      "figma": {
+        "page": "Combobox",
+        "nodes": [
+          {
+            "id": "430:4114",
+            "name": "Combobox",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=430-4114"
+          },
+          {
+            "id": "17379:199232",
+            "name": "Combobox / Menu Item",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17379-199232"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/command.tsx",
+        "exports": [
+          "Command",
+          "CommandDialog",
+          "CommandInput",
+          "CommandList",
+          "CommandEmpty",
+          "CommandGroup",
+          "CommandItem",
+          "CommandShortcut",
+          "CommandSeparator"
+        ]
+      },
+      "figma": {
+        "page": "Command",
+        "nodes": [
+          {
+            "id": "204:1144",
+            "name": "Command",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=204-1144"
+          },
+          {
+            "id": "260:4100",
+            "name": "Command / Input",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=260-4100"
+          },
+          {
+            "id": "345:8657",
+            "name": "Command / Item / Default",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=345-8657"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/context-menu.tsx",
+        "exports": [
+          "ContextMenu",
+          "ContextMenuTrigger",
+          "ContextMenuContent",
+          "ContextMenuItem",
+          "ContextMenuCheckboxItem",
+          "ContextMenuRadioItem",
+          "ContextMenuLabel",
+          "ContextMenuSeparator",
+          "ContextMenuShortcut",
+          "ContextMenuGroup",
+          "ContextMenuPortal",
+          "ContextMenuSub",
+          "ContextMenuSubContent",
+          "ContextMenuSubTrigger",
+          "ContextMenuRadioGroup"
+        ]
+      },
+      "figma": {
+        "page": "Context Menu",
+        "nodes": [
+          {
+            "id": "249:5013",
+            "name": "ContextMenu",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=249-5013"
+          },
+          {
+            "id": "419:4521",
+            "name": "ContextMenu / Item / Default",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=419-4521"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/dialog.tsx",
+        "exports": [
+          "Dialog",
+          "DialogClose",
+          "DialogContent",
+          "DialogDescription",
+          "DialogFooter",
+          "DialogHeader",
+          "DialogOverlay",
+          "DialogPortal",
+          "DialogTitle",
+          "DialogTrigger"
+        ]
+      },
+      "figma": {
+        "page": "Dialog",
+        "nodes": [
+          {
+            "id": "112:602",
+            "name": "Dialog",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=112-602"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/drawer.tsx",
+        "exports": [
+          "Drawer",
+          "DrawerPortal",
+          "DrawerOverlay",
+          "DrawerSwipeHandle",
+          "DrawerTrigger",
+          "DrawerClose",
+          "DrawerContent",
+          "DrawerHeader",
+          "DrawerFooter",
+          "DrawerTitle",
+          "DrawerDescription"
+        ]
+      },
+      "figma": {
+        "page": "Drawer",
+        "nodes": [
+          {
+            "id": "244:2831",
+            "name": "Drawer",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=244-2831"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/dropdown-menu.tsx",
+        "exports": [
+          "DropdownMenu",
+          "DropdownMenuPortal",
+          "DropdownMenuTrigger",
+          "DropdownMenuContent",
+          "DropdownMenuGroup",
+          "DropdownMenuLabel",
+          "DropdownMenuItem",
+          "DropdownMenuCheckboxItem",
+          "DropdownMenuRadioGroup",
+          "DropdownMenuRadioItem",
+          "DropdownMenuSeparator",
+          "DropdownMenuShortcut",
+          "DropdownMenuSub",
+          "DropdownMenuSubTrigger",
+          "DropdownMenuSubContent"
+        ]
+      },
+      "figma": {
+        "page": "Dropdown Menu",
+        "nodes": [
+          {
+            "id": "336:5077",
+            "name": "DropdownMenu",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=336-5077"
+          },
+          {
+            "id": "330:8549",
+            "name": "DropdownMenu / Item / Default",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=330-8549"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/empty.tsx",
+        "exports": [
+          "Empty",
+          "EmptyHeader",
+          "EmptyTitle",
+          "EmptyDescription",
+          "EmptyContent",
+          "EmptyMedia"
+        ]
+      },
+      "figma": {
+        "page": "Empty",
+        "nodes": [
+          {
+            "id": "18672:2962",
+            "name": "Empty",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-2962"
+          },
+          {
+            "id": "18672:1781",
+            "name": "Empty / Media",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-1781"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/field.tsx",
+        "exports": [
+          "Field",
+          "FieldLabel",
+          "FieldDescription",
+          "FieldError",
+          "FieldGroup",
+          "FieldLegend",
+          "FieldSeparator",
+          "FieldSet",
+          "FieldContent",
+          "FieldTitle"
+        ]
+      },
+      "figma": {
+        "page": "Field",
+        "nodes": [
+          {
+            "id": "18684:15220",
+            "name": "Field",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18684-15220"
+          },
+          {
+            "id": "18707:224542",
+            "name": "FieldSet",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18707-224542"
+          },
+          {
+            "id": "18707:192227",
+            "name": "Field / Legend",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18707-192227"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/hover-card.tsx",
+        "exports": [
+          "HoverCard",
+          "HoverCardTrigger",
+          "HoverCardContent"
+        ]
+      },
+      "figma": {
+        "page": "Hover Card",
+        "nodes": [
+          {
+            "id": "216:3141",
+            "name": "Hover Card",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=216-3141"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/input.tsx",
+        "exports": [
+          "Input"
+        ]
+      },
+      "figma": {
+        "page": "Input",
+        "nodes": [
+          {
+            "id": "65:533",
+            "name": "Input",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=65-533"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/input-group.tsx",
+        "exports": [
+          "InputGroup",
+          "InputGroupAddon",
+          "InputGroupButton",
+          "InputGroupText",
+          "InputGroupInput",
+          "InputGroupTextarea"
+        ]
+      },
+      "figma": {
+        "page": "Input Group",
+        "nodes": [
+          {
+            "id": "18672:226415",
+            "name": "InputGroup",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-226415"
+          },
+          {
+            "id": "18677:9902",
+            "name": "InputGroup / Addon Inline",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18677-9902"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/input-otp.tsx",
+        "exports": [
+          "InputOTP",
+          "InputOTPGroup",
+          "InputOTPSlot",
+          "InputOTPSeparator"
+        ]
+      },
+      "figma": {
+        "page": "Input OTP",
+        "nodes": [
+          {
+            "id": "81:141",
+            "name": "InputOTP",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=81-141"
+          },
+          {
+            "id": "81:122",
+            "name": "InputOTP / Slot",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=81-122"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/item.tsx",
+        "exports": [
+          "Item",
+          "ItemMedia",
+          "ItemContent",
+          "ItemActions",
+          "ItemGroup",
+          "ItemSeparator",
+          "ItemTitle",
+          "ItemDescription",
+          "ItemHeader",
+          "ItemFooter"
+        ]
+      },
+      "figma": {
+        "page": "Item",
+        "nodes": [
+          {
+            "id": "18672:198607",
+            "name": "Item",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-198607"
+          },
+          {
+            "id": "18672:6043",
+            "name": "Item / Media",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-6043"
+          },
+          {
+            "id": "18672:218902",
+            "name": "ItemGroup",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18672-218902"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/kbd.tsx",
+        "exports": [
+          "Kbd",
+          "KbdGroup"
+        ]
+      },
+      "figma": {
+        "page": "Kbd",
+        "nodes": [
+          {
+            "id": "18665:781",
+            "name": "Kbd",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18665-781"
+          },
+          {
+            "id": "18665:995",
+            "name": "KbdGroup",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18665-995"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/menubar.tsx",
+        "exports": [
+          "Menubar",
+          "MenubarPortal",
+          "MenubarMenu",
+          "MenubarTrigger",
+          "MenubarContent",
+          "MenubarGroup",
+          "MenubarSeparator",
+          "MenubarLabel",
+          "MenubarItem",
+          "MenubarShortcut",
+          "MenubarCheckboxItem",
+          "MenubarRadioGroup",
+          "MenubarRadioItem",
+          "MenubarSub",
+          "MenubarSubTrigger",
+          "MenubarSubContent"
+        ]
+      },
+      "figma": {
+        "page": "Menubar",
+        "nodes": [
+          {
+            "id": "216:1522",
+            "name": "Menubar",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=216-1522"
+          },
+          {
+            "id": "210:3528",
+            "name": "Menubar / Trigger",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=210-3528"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/navigation-menu.tsx",
+        "exports": [
+          "NavigationMenu",
+          "NavigationMenuContent",
+          "NavigationMenuIndicator",
+          "NavigationMenuItem",
+          "NavigationMenuLink",
+          "NavigationMenuList",
+          "NavigationMenuTrigger",
+          "navigationMenuTriggerStyle",
+          "NavigationMenuPositioner"
+        ]
+      },
+      "figma": {
+        "page": "Navigation Menu",
+        "nodes": [
+          {
+            "id": "210:2036",
+            "name": "NavigationMenu",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=210-2036"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/pagination.tsx",
+        "exports": [
+          "Pagination",
+          "PaginationContent",
+          "PaginationEllipsis",
+          "PaginationItem",
+          "PaginationLink",
+          "PaginationNext",
+          "PaginationPrevious"
+        ]
+      },
+      "figma": {
+        "page": "Pagination",
+        "nodes": [
+          {
+            "id": "208:1701",
+            "name": "Pagination",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=208-1701"
+          },
+          {
+            "id": "208:1651",
+            "name": "Pagination / PaginationItem",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=208-1651"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/popover.tsx",
+        "exports": [
+          "Popover",
+          "PopoverContent",
+          "PopoverDescription",
+          "PopoverHeader",
+          "PopoverTitle",
+          "PopoverTrigger"
+        ]
+      },
+      "figma": {
+        "page": "Popover",
+        "nodes": [
+          {
+            "id": "195:1621",
+            "name": "Popover",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=195-1621"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/progress.tsx",
+        "exports": [
+          "Progress",
+          "ProgressTrack",
+          "ProgressIndicator",
+          "ProgressLabel",
+          "ProgressValue"
+        ]
+      },
+      "figma": {
+        "page": "Progress",
+        "nodes": [
+          {
+            "id": "296:4740",
+            "name": "Progress",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=296-4740"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/radio-group.tsx",
+        "exports": [
+          "RadioGroup",
+          "RadioGroupItem"
+        ]
+      },
+      "figma": {
+        "page": "Radio Group",
+        "nodes": [
+          {
+            "id": "65:341",
+            "name": "Radio Group",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=65-341"
+          },
+          {
+            "id": "65:326",
+            "name": "RadioButton",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=65-326"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/resizable.tsx",
+        "exports": [
+          "ResizableHandle",
+          "ResizablePanel",
+          "ResizablePanelGroup"
+        ]
+      },
+      "figma": {
+        "page": "Resizable",
+        "nodes": [
+          {
+            "id": "17382:7210",
+            "name": "Resizable",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17382-7210"
+          },
+          {
+            "id": "18449:210",
+            "name": "Resizable / Handle",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18449-210"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/scroll-area.tsx",
+        "exports": [
+          "ScrollArea",
+          "ScrollBar"
+        ]
+      },
+      "figma": {
+        "page": "Scroll Area",
+        "nodes": [
+          {
+            "id": "18597:81811",
+            "name": "Scroll-area / Vertical",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18597-81811"
+          },
+          {
+            "id": "18597:81812",
+            "name": "Scroll-area / Horizontal",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18597-81812"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/select.tsx",
+        "exports": [
+          "Select",
+          "SelectContent",
+          "SelectGroup",
+          "SelectItem",
+          "SelectLabel",
+          "SelectScrollDownButton",
+          "SelectScrollUpButton",
+          "SelectSeparator",
+          "SelectTrigger",
+          "SelectValue"
+        ]
+      },
+      "figma": {
+        "page": "Select",
+        "nodes": [
+          {
+            "id": "345:11530",
+            "name": "Select",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=345-11530"
+          },
+          {
+            "id": "118:1541",
+            "name": "Select Menu / Item",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=118-1541"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/separator.tsx",
+        "exports": [
+          "Separator"
+        ]
+      },
+      "figma": {
+        "page": "Separator",
+        "nodes": [
+          {
+            "id": "118:2690",
+            "name": "Separator",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=118-2690"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/sheet.tsx",
+        "exports": [
+          "Sheet",
+          "SheetTrigger",
+          "SheetClose",
+          "SheetContent",
+          "SheetHeader",
+          "SheetFooter",
+          "SheetTitle",
+          "SheetDescription"
+        ]
+      },
+      "figma": {
+        "page": "Sheet",
+        "nodes": [
+          {
+            "id": "220:4633",
+            "name": "Sheet",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=220-4633"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/sidebar.tsx",
+        "exports": [
+          "Sidebar",
+          "SidebarContent",
+          "SidebarFooter",
+          "SidebarGroup",
+          "SidebarGroupAction",
+          "SidebarGroupContent",
+          "SidebarGroupLabel",
+          "SidebarHeader",
+          "SidebarInput",
+          "SidebarInset",
+          "SidebarMenu",
+          "SidebarMenuAction",
+          "SidebarMenuBadge",
+          "SidebarMenuButton",
+          "SidebarMenuItem",
+          "SidebarMenuSkeleton",
+          "SidebarMenuSub",
+          "SidebarMenuSubButton",
+          "SidebarMenuSubItem",
+          "SidebarProvider",
+          "SidebarRail",
+          "SidebarSeparator",
+          "SidebarTrigger",
+          "useSidebar"
+        ]
+      },
+      "figma": {
+        "page": "Sidebar",
+        "nodes": [
+          {
+            "id": "5198:1113",
+            "name": "Sidebar / SidebarMenuButton",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1113"
+          },
+          {
+            "id": "5198:1398",
+            "name": "Sidebar / SidebarGroupLabel",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1398"
+          },
+          {
+            "id": "5198:1446",
+            "name": "Sidebar / SidebarMenuSub",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1446"
+          },
+          {
+            "id": "5198:1510",
+            "name": "Sidebar / SidebarMenuItem",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1510"
+          },
+          {
+            "id": "5198:1528",
+            "name": "Sidebar / SidebarGroup",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1528"
+          },
+          {
+            "id": "5198:1587",
+            "name": "Sidebar / SidebarMenuSubItem",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1587"
+          },
+          {
+            "id": "5198:1616",
+            "name": "Sidebar / SidebarGroupAction",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=5198-1616"
+          }
+        ]
+      },
+      "note": "Figma also has full-page blocks Sidebar 01-14 (not components)."
+    },
+    {
+      "code": {
+        "file": "src/components/ui/skeleton.tsx",
+        "exports": [
+          "Skeleton"
+        ]
+      },
+      "figma": {
+        "page": "Skeleton",
+        "nodes": [
+          {
+            "id": "295:462",
+            "name": "Skeleton",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=295-462"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/slider.tsx",
+        "exports": [
+          "Slider"
+        ]
+      },
+      "figma": {
+        "page": "Slider",
+        "nodes": [
+          {
+            "id": "17382:13106",
+            "name": "Slider",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17382-13106"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/spinner.tsx",
+        "exports": [
+          "Spinner"
+        ]
+      },
+      "figma": {
+        "page": "Spinner",
+        "nodes": [
+          {
+            "id": "18665:25956",
+            "name": "Spinner",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18665-25956"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/switch.tsx",
+        "exports": [
+          "Switch"
+        ]
+      },
+      "figma": {
+        "page": "Switch",
+        "nodes": [
+          {
+            "id": "60:450",
+            "name": "Switch",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=60-450"
+          },
+          {
+            "id": "18684:180466",
+            "name": "Switch Group",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18684-180466"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/table.tsx",
+        "exports": [
+          "Table",
+          "TableHeader",
+          "TableBody",
+          "TableFooter",
+          "TableHead",
+          "TableRow",
+          "TableCell",
+          "TableCaption"
+        ]
+      },
+      "figma": {
+        "page": "Table",
+        "nodes": [
+          {
+            "id": "325:388",
+            "name": "Table",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=325-388"
+          },
+          {
+            "id": "190:898",
+            "name": "Table / Head",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=190-898"
+          },
+          {
+            "id": "190:901",
+            "name": "Table / Cell",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=190-901"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/tabs.tsx",
+        "exports": [
+          "Tabs",
+          "TabsList",
+          "TabsTrigger",
+          "TabsContent",
+          "tabsListVariants"
+        ]
+      },
+      "figma": {
+        "page": "Tabs",
+        "nodes": [
+          {
+            "id": "183:539",
+            "name": "Tabs",
+            "type": "COMPONENT",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=183-539"
+          },
+          {
+            "id": "183:532",
+            "name": "Tabs / Trigger",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=183-532"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/textarea.tsx",
+        "exports": [
+          "Textarea"
+        ]
+      },
+      "figma": {
+        "page": "Textarea",
+        "nodes": [
+          {
+            "id": "183:74",
+            "name": "Textarea",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=183-74"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/toast.tsx",
+        "exports": [
+          "Toaster",
+          "Toast",
+          "ToastAction",
+          "ToastClose",
+          "ToastContent",
+          "ToastDescription",
+          "ToastPortal",
+          "ToastProvider",
+          "ToastTitle",
+          "ToastViewport",
+          "createToastManager",
+          "toast",
+          "useToastManager"
+        ]
+      },
+      "figma": {
+        "page": "Sonner",
+        "nodes": [
+          {
+            "id": "18482:48401",
+            "name": "Sonner",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18482-48401"
+          },
+          {
+            "id": "17375:198096",
+            "name": "Sonner / Icon",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17375-198096"
+          },
+          {
+            "id": "17375:198044",
+            "name": "Sonner / Action",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17375-198044"
+          }
+        ]
+      },
+      "note": "Figma models Sonner; code uses Base UI toast. Visual mapping only."
+    },
+    {
+      "code": {
+        "file": "src/components/ui/toggle.tsx",
+        "exports": [
+          "Toggle",
+          "toggleVariants"
+        ]
+      },
+      "figma": {
+        "page": "Toggle",
+        "nodes": [
+          {
+            "id": "124:27",
+            "name": "Toggle",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=124-27"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/toggle-group.tsx",
+        "exports": [
+          "ToggleGroup",
+          "ToggleGroupItem"
+        ]
+      },
+      "figma": {
+        "page": "Toggle Group",
+        "nodes": [
+          {
+            "id": "18707:214048",
+            "name": "Toggle Group",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=18707-214048"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "file": "src/components/ui/tooltip.tsx",
+        "exports": [
+          "Tooltip",
+          "TooltipTrigger",
+          "TooltipContent",
+          "TooltipProvider"
+        ]
+      },
+      "figma": {
+        "page": "Tooltip",
+        "nodes": [
+          {
+            "id": "17103:809",
+            "name": "Tooltip",
+            "type": "SET",
+            "url": "https://www.figma.com/design/JSAx0DZs7QDgwGX3m7ysPb/Goodwin-DS?node-id=17103-809"
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": {
+    "codeWithoutFigma": [
+      "attachment",
+      "bubble",
+      "code-block",
+      "direction",
+      "label",
+      "marker",
+      "message",
+      "message-scroller",
+      "native-select",
+      "questionnaire",
+      "trace"
+    ],
+    "figmaWithoutCode": [
+      "Data Table",
+      "Date Picker",
+      "Form",
+      "Label"
+    ]
+  }
+}
